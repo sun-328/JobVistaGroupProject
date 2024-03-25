@@ -1,0 +1,15 @@
+#chartId{
+    box-sizing: border-box;
+    display: block;
+    height: 318px;
+    width: 754px;
+    margin-left: 3%;
+}
+
+.chart  {
+    margin-left: 3%;
+}
+
+.line   {
+    margin-left: 3%;
+}

@@ -1,0 +1,226 @@
+Button {
+    height: 45px;
+    width: 100px;
+    border: none;
+    background: #4188FF;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 10px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+table {
+    height: 100%;
+    width: 98%;
+    margin-top: 30px;
+}
+
+.applicantDiv {
+    display: flex;
+    height: 100%;
+    width: 98%;
+    flex-direction: column;
+}
+
+tr {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    border-left: 1px solid #eae9e9;
+    border-right: 1px solid #eae9e9;
+    border-bottom: 1px solid #eae9e9;
+
+}
+
+td {
+    height: 5%;
+    width: 15%;
+    text-align: center;
+}
+
+th {
+    height: 50px;
+    width: 47%;
+    display: flex;
+    align-items: center;
+    padding-left: 3%;
+}
+
+.openingTr {
+    border-top: 1px solid #eae9e9;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.openingTrAppli {
+    border-top: 1px solid #eae9e9;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr 2fr 1fr 1fr;
+}
+
+thead {
+    width: 100%;
+}
+
+#applicants {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 84%;
+}
+
+.title {
+    padding: 2% 0% 0% 2%;
+    display: flex;
+    gap: 1%;
+}
+
+#openingId {
+    display: flex;
+}
+
+#divId {
+    height: 100%;
+}
+
+#applicants::-webkit-scrollbar {
+    display: none;
+}
+
+#currentOpeningId {
+    height: 100%;
+    width: 100%;
+    margin: -10px;
+}
+
+#tbody {
+    height: 100%;
+    overflow: scroll;
+    border-left: none;
+    border-right: none;
+}
+
+#tbody::-webkit-scrollbar {
+    display: none;
+}
+
+.td {
+    height: 52%;
+    width: 40%;
+}
+
+#name {
+    width: 60%;
+    margin-left: 21%;
+}
+
+#start_date {
+    margin-left: 28%;
+}
+
+#end_date {
+    margin-left: 30%;
+}
+
+#some {
+    margin-top: 4%;
+    border-left: none;
+    border-right: none;
+}
+
+#other {
+    border-left: none;
+    border-right: none;
+}
+
+#tr_tab {
+    border-left: none;
+    border-right: none;
+}
+
+.mainTrs {
+    display: grid;
+    grid-template-columns: 2fr 3fr 1fr 2fr 2fr 1fr 1fr;
+    padding-bottom: 2%;
+}
+
+#qualificationId {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    /* overflow: hidden; */
+
+}
+
+#parent {
+    overflow: hidden;
+}
+
+.commonStyle {
+    width: 100%;
+    text-align: left;
+}
+
+#check {
+    padding-bottom: 2.5%;
+}
+
+.openTr {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.panelistTr {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.commonTr {
+    width: 100%;
+    text-align: left;
+}
+
+.positionTr {
+    padding-left: 40px;
+}
+
+.openingTrMain {
+    border-top: 1px solid #eae9e9;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.openingTrText {
+    border-top: 1px solid #eae9e9;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.OpId {
+    height: 90%;
+}
+
+.containerScroll {
+    height: 80%;
+    overflow-y: auto;
+}
+/* 
+.tableContainer {
+    overflow: hidden;
+    height: 800px;
+}
+
+.scrollableBody {
+    overflow-y: auto;
+    height: 100%;
+} */
+
+.commonScrollContainer::-webkit-scrollbar   {
+    display: none;
+}

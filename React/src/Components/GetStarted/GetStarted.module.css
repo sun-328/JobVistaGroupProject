@@ -1,0 +1,24 @@
+.commonStyle    {
+    border: 1px solid #fff;
+    background: transparent;
+    width: 130px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#icon   {
+    padding-left: 7%;
+}
+
+#getStarted {
+    border-radius: 25px;
+    font-size: 18px;
+    color: #fff;
+}
+
+#getStarted:hover   {
+    background: #fff;
+    color: #000;
+    transition: 1s;
+}

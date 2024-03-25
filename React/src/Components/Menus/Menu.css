@@ -1,0 +1,30 @@
+.active {
+    opacity: 0.5;
+    width: 100%;
+    cursor: pointer;
+    transition: .5s;
+}
+
+ul  {
+    list-style-type: none;
+}
+
+.commonSpanStyle    {
+    padding-left: 5%;
+}
+
+.commonStyleContainer  {
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+}
+
+.white  {
+    /* color: #fff; */
+    cursor: pointer;
+    transition: .5s;
+}
+
+.commonCBstyle  {
+    display: flex;
+}

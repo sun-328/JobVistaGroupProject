@@ -1,0 +1,9 @@
+#mainProfile {
+    position: absolute;
+    left: 80%;
+    /* top: 10%; */
+    height: 500px;
+    width: 500px;
+    background: rgb(226, 229, 232);
+    background: linear-gradient(0deg, rgba(226, 229, 232, 1) 0%, rgba(253, 253, 253, 1) 100%);
+}

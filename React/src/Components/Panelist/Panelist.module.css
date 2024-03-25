@@ -1,0 +1,238 @@
+.flx {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2%
+}
+
+#panelist {
+    border-top: 1px solid #eae9e9;
+    border-bottom: 1px solid #eae9e9;
+    height: 50px;
+    font-weight: bold;
+}
+
+#header {
+    width: 98%;
+    height: 70px;
+}
+
+#panelistBtn {
+    height: 45px;
+    width: 150px;
+    border: none;
+    background: #4188FF;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 10px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-top: 0%;
+}
+
+#panelistBtn:hover {
+    background-color: #3172e2
+}
+
+#each   {
+    width: 80%;
+    border-bottom: 1px solid #eae9e9;
+    height: 50px;
+}
+
+#main   {
+    width: 100%;
+}
+
+#mainList   {
+    display: flex;
+    width: 80%;
+    height: 50px;
+}
+
+#lists  {
+    height: 100%;
+    border-bottom: 1px solid #F6F7F8;
+}
+
+.common {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    width: 100%;
+}
+
+#mainCon    {
+    width: 120%;
+}
+
+#addPanelistDiv{
+    width:100%;
+}
+
+.commonStyle    {
+    height: 100%;
+    width: 100%;
+}
+
+#panMain    {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+#addPanelist{
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.10);
+    padding: 1%;
+    margin: 1%;
+    height: 92%;
+    /* background-color: white; */
+    margin-top: 2%;
+}
+.perfectDiv {
+    width: 60%;
+    color: #999;
+}
+.flx {
+    display: flex;
+}
+.flxDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 75%;
+    color: black;
+    font-size:  18px;
+}
+.ulWidth1 {
+    width: 50%;
+}
+
+.list-1 {
+    display: flex;
+    flex-direction: column;
+}
+.listing {
+    width: 50%;
+}
+ul {
+    list-style-type: none;
+}
+.ulWidth2 {
+    width: 50%;
+}
+
+.perfectDiv input {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    background: transparent;
+    padding: 5px; 
+    margin-right: 10px; 
+    font-size:  18px;
+  }
+  
+  .perfectDiv input:focus {
+    outline: none; 
+    border-bottom: 1px solid #007bff;
+  }
+  
+
+  
+  li {
+    margin-bottom: 10%;
+  }
+  
+  .CancelOrSubmit{
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 17%;
+    width: 94%;
+    gap: 5%;
+  }
+  #CancelAddPanelist{
+    background-color: transparent;
+    color: black;
+    border: 1px solid #4188FF;
+
+  }
+  #CancelAddPanelist:hover{
+    cursor: pointer;
+    border: none;
+    background: #4188FF;
+    color: #fff;
+    transition: 1s;
+  }
+
+  #subId:hover{
+    cursor: pointer;
+    background-color: transparent;
+    color: black;
+    border: 1px solid #4188FF;
+    transition: 1s;
+  }
+
+  #panelistTableHead{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+
+  #panelistTable{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .panelistTr   {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding-bottom: 1%;
+    padding-left: 2%;
+  }
+
+  #panelistTr   {
+    border-bottom: none;
+  }
+
+  .commonNameStyle  {
+    width: 100%;
+    text-align: left;
+  }
+
+  #editImage{
+    height: 20px;
+  }
+
+  #scrollContainer{
+    overflow: scroll;
+    height: 100%;
+    width: 100%;
+  }
+
+#scrollContainer::-webkit-scrollbar {
+  display: none;
+}
+
+  .panelistInput{
+    width: 100%;
+  }
+
+  #InputLi{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #mainContainer {
+    height: 80%;
+  }

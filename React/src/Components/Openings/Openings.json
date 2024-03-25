@@ -1,0 +1,19 @@
+{
+    "panalist":{
+     "name":"Alice Johnson",
+     "email":"alice.johnson@email.com",
+     "gender":"Female",
+     "position":"Manager",
+     "organistion":"Tech Innovations Inc",
+     "department":"Research and Development"
+         },
+    "opening":{
+    "title":"Software Testing",
+    "experience":2,
+    "departments":"Tester",
+    "qualification":"Bsc computer",
+    "type":"Full-Time",
+    "salaryRange":"$70,000 - $90,000"
+            }
+    
+}

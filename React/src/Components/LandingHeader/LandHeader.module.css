@@ -1,0 +1,50 @@
+#mainHeader {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 70%;
+    background: rgba(255, 255, 255, 0.1);
+    position: fixed;
+}
+
+#btnCon {
+    display: flex;
+    width: 12%;
+    justify-content: space-between;
+}
+
+.commonStyle    {
+    border: none;
+    width: 130px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#searchJobsBtn  {
+    background: #fff;
+    width: 150px;
+    border-radius: 50px;
+    font-size: 18px;
+    margin-top: 0%;
+    color: #000;
+}
+
+#searchJobsBtn:hover    {
+    background: transparent;
+    color: #fff;
+    transition: 1s;
+}
+
+#signUp {
+    background: none;
+    color: #fff;
+    margin-top: 1%;
+}
+
+#signUp:hover   {
+    color: #4188FF;
+    transition: 1s;
+}

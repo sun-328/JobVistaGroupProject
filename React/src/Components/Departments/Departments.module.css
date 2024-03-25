@@ -1,0 +1,199 @@
+tbody{
+    height: 7%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+table{
+    height: 100%;
+    width: 100%;
+}
+thead{
+
+    border-top: 1px solid #eae9e9;
+    border-bottom: 1px solid #eae9e9;
+    height: 50px;
+    font-weight: bold;
+
+}
+tr{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-left: 1px solid #eae9e9;
+    border-right: 1px solid #eae9e9;
+    border-bottom: 1px solid #eae9e9;
+}
+.departmentDiv{
+    height: 100%;
+    width: 100%;
+}
+.openingTr{
+    border-top: 1px solid #eae9e9;
+    border-bottom: 1px solid #eae9e9;
+}
+.openingTd{
+    height: 5%;
+    width: 28%;
+    text-align: left;
+    overflow: hidden;
+}
+
+.title  {
+    padding: 2% 0% 0% 2%;
+}
+
+#head   {
+    display: flex;
+    justify-content: space-between;
+    width: 98%;
+}
+
+#addDepartment  {
+    width: 12%;
+    
+}
+
+.addDepartmentInput{
+    height: 81%;
+    width: 53%;
+    padding: 1%;
+    font-size: 18px;
+    border-bottom: 1px solid #eae9e9;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: transparent;
+    outline: none;
+}
+
+#addDepartmentDiv{
+    height: 90%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin: auto;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.10);
+    padding-bottom: 5%;
+    margin-top: 3%;
+}
+
+.addDepartmentcontainer{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#departmentButton{
+    width: 85%;
+    gap: 5%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 50%;
+}
+
+.inputText{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: black;
+    align-items: center;
+}
+
+#txtArea    {
+    height: 300px;
+    /* border: 1px solid; */
+    /* box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.10); */
+    border-bottom: 1px solid #c7c2c2
+}
+
+#viewContainer  {
+    height: 100%;
+    width: 100%;
+}
+
+.textId{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    /* overflow: hidden; */
+}
+
+#textAlign{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.mainTr{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    text-align: left;
+    padding-bottom: 1.5%;
+}
+
+#nameText{
+    width: 170px;
+    text-align: left;
+}
+
+#dobText{
+    width: 100px;
+}
+
+.commonTxtStyle {
+    width: 100%;
+    /* text-align: left; */
+}
+
+#scrollContainer    {
+    overflow: scroll;
+}
+
+#scrollContainer::-webkit-scrollbar {
+    display: none;
+}
+
+#thatName   {
+    width: 270px;
+}
+
+#thatEmail  {
+    width: 270px;
+    text-align: left;
+}
+
+.that {
+    width: 50%;
+}
+
+#gender {
+    width: 70%;
+}
+
+#openingId{
+    padding-left: 7%;
+}
+
+#openingTdId{
+    padding-left: 4%;
+}
+
+.commonStyle    {
+    text-align: unset;
+}
+
+.commonThStyle  {
+    padding-left: 0%;
+}
+
+/* #common {
+    padding-left: 3.3%;
+    height: 100%;
+    width: 100%;
+} */

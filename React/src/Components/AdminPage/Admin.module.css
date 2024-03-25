@@ -1,0 +1,32 @@
+#adminContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+#admin  {
+    display: flex;
+    height: 93%;
+    width: 100%;
+}
+
+#menuBox    {
+    height: 100%;
+    /* background: #F8F9FB; */
+    box-shadow: 2px 2px 2px #eeecec;
+    display: flex;
+    flex-direction: column;
+    width: 16%;
+}
+
+#viewBox    {
+    height: 100%;
+    width: 100%;
+    /* background: #F8F9FB; */
+}
+
+#menuHead   {
+    color: #4191FF;
+    padding: 8%;
+}

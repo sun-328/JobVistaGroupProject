@@ -1,0 +1,347 @@
+.commonStyle    {
+    height: 100%;
+    width: 100%;
+}
+
+#mainSide   {
+    display: flex;
+    height: 92.3%;
+}
+
+#leftSide   {
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 1.3%;
+}
+
+#opening    {
+    width: 100%;
+    border: 1px solid #e9e9e9;
+    height: 96%;
+    display: flex;
+    flex-direction: column;
+}
+
+#rightSide  {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1%;
+    overflow: scroll;
+}
+
+#rightSide::-webkit-scrollbar   {
+    display: none;
+}
+
+#main   {
+    display: flex;
+}
+
+.common {
+    height: 47.5%;
+    width: 95%;
+    /* border: 1px solid #e9e9e9; */
+}
+
+#analytics  {
+    margin-top: 2%;
+}
+
+.title  {
+    padding: 1% 0% 1% 1%;
+    font-size: 20px;
+    border: 1px solid #e9e9e9;
+}
+
+#view   {
+    margin: 1% 0% 0% 1%;
+    border: 1px solid #e9e9e9;
+    height: 95.6%;
+    width: 52.5%;
+}
+
+#backBtn    {
+    margin-left: 2%;
+    width: 4%;
+    border-radius: 50%;
+    height: 8%;
+}
+
+.tdId{
+    width: 16%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tbodyId{
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.trId{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid #eae9e9;
+}
+
+.thId{
+    height: 50px;
+    width: 47%;
+    display: flex;
+    align-items: center;
+    padding: 0%;
+    justify-content: center;
+}
+
+#buttonId{
+    height: 45px;
+    width: 100px;
+    border: none;
+    background: #4188FF;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 10px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0%;
+}
+
+#notFound{
+    align-items: center;
+    height: 72%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.applicantTr{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding-bottom: 1.5%;
+}
+
+#table  {
+    width: 200%;
+}
+
+.jobSeekerName  {
+    width: 57%;
+    text-align: left;
+}
+
+.jobSeekerDOB   {
+    width: 31%;
+}
+
+.jobSeekerQualification {
+    width: 140%;
+    text-align: left;
+}
+
+/* name : width 57%  */
+/* DOB : width 31% */
+/* qualification : width 126% */
+
+.phone  {
+    padding-left: 75%;
+}
+
+.experience {
+    padding-left: 50%;
+}
+
+.jobSeekerGender    {
+    width: 45%;
+    text-align: left;
+    padding-left: 15%;
+}
+
+
+
+#viewbuttonId{
+    width: 140px;
+    font-size: 15px;
+    margin-top: 0%;
+}
+
+#openingBtn{
+    width:125px;
+}
+.perfectDiv {
+    margin-top: 5%;
+    color: #999;
+}
+.flx {
+    display: flex;
+    justify-content: space-between;
+}
+.ulWidth1 {
+    width: 30%;
+}
+.ulWidth1 li {
+    margin-bottom: 10%;
+}
+
+.list-1 {
+    display: flex;
+    flex-direction: column;
+}
+.listing {
+    width: 50%;
+    padding-left: 5%;
+}
+.flx {
+    display: flex;
+}
+ul {
+    list-style-type: none;
+}
+.ulWidth2 {
+    width: 70%;
+    
+}
+.ulWidth2 li {
+    margin-bottom: 5%;
+}
+.space{
+    margin-bottom: 4%;
+    margin-left: 5%;
+}
+
+.perfectDiv input {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    background: transparent;
+    padding: 5px; 
+    margin-right: 10px; 
+  }
+  
+  .perfectDiv input:focus {
+    outline: none; 
+    border-bottom: 2px solid #007bff;
+  }
+  
+
+  .CancelOrSubmit{
+    width:30%;
+  }
+  #CancelAddPanelist{
+    background-color: white;
+    color: black;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.10),
+    2px 0px 2px rgba(0, 0, 0, 0.10),
+    0px -2px 2px rgba(0, 0, 0, 0.10),
+    -2px 0px 2px rgba(0, 0, 0, 0.10);
+
+  }
+
+  .selectPanelists {
+    max-height: 90px;
+    overflow-y: scroll; 
+  }
+  .selectPanelists::-webkit-scrollbar {
+    display: none;
+  }
+  #TestTitle{
+    margin-top: 30%;
+  }
+  .flx{
+    display: flex;
+  }
+  #addOpening{
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.10);
+    padding: 1%;
+    margin: 1%;
+    width: 50%;
+  }
+
+.dateInput{
+    width: 100px;
+}
+
+#dateId{
+    width: 390px;
+}
+
+#radioId{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#checkDiv{
+    height: 300px;
+}
+
+
+.inputSpace{
+    width: 380px;
+    margin-left: 0%;
+}
+
+#submitId{
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 90%;
+    gap: 10%;
+}
+
+#checkemail{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    margin-top: 40px;
+}
+
+#upOpenings{
+    padding: 2%;
+}
+
+#adminContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+#admin  {
+    display: flex;
+    height: 93%;
+    width: 100%;
+}
+
+#menuBox    {
+    height: 100%;
+    /* background: #F8F9FB; */
+    box-shadow: 2px 2px 2px #eeecec;
+    display: flex;
+    flex-direction: column;
+    width: 19%;
+}
+
+#viewBox    {
+    height: 100%;
+    width: 100%;
+    /* background: #F8F9FB; */
+}
+
+#menuHead   {
+    color: #4191FF;
+    padding: 8%;
+}

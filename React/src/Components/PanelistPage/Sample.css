@@ -1,0 +1,74 @@
+#view{
+    margin: 1% 0% 0% 1%;
+    /* border: 1px solid #e9e9e9; */
+    height: 95.6%;
+    width: 100%;
+}
+
+#openingDiv {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.butAdd {
+    width: 135px;
+    margin-right: 51px;
+}
+
+.trClass{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.outBut{
+    width: 3%;
+    font-size: 18px;
+    height: 37px;
+}
+
+#genderId {
+    width: 50%;
+}
+
+#appliId{
+    width: 63%;
+}
+
+.upComingDiv{
+    display: flex;
+    margin-left: 2%;
+}
+
+#openingHeading{
+    margin: 28px 3px 8px 20px;
+}
+
+#mainView{
+    width: 100%;
+}
+
+.openingContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.dateClass{
+    width: 27%;
+}
+
+.nameClass{
+    width: 50%;
+}
+
+#viewbuttonId{
+    width: 140px;
+    font-size: 15px;
+    margin-top: 0%;
+}
+
+#but    {
+    margin-top: -5%;
+    padding-bottom: 8%;
+}

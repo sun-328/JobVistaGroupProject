@@ -1,0 +1,87 @@
+#divContainer   {
+    display: flex;
+    height: 40%;
+    width: 100%;
+}
+
+#box    {
+    display: flex;
+    width: 98%;
+    padding-left: 2%;
+    height: 28%;
+    justify-content: space-around;
+}
+
+#forBox {
+    height: 100%;
+    width: 50%;
+}
+
+#dashboardContainer {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 3%;
+}
+
+#overview   {
+    margin: 3% 0% 0% 3%;
+}
+
+#opening    {
+    height: 107%;
+    width: 48%;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.10);
+}
+
+#currOpenings   {
+    padding: 3%;
+}
+
+#totalHire  {
+    height: 79%;
+    width: 90%;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.10);
+    margin-left: 5%;
+}
+
+#hire   {
+    padding: 2%;
+}
+
+#chart  {
+    width: 100%;
+    gap: 2%;
+    display: flex;
+    height: 40%;
+}
+
+.shadow {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.10);
+    height: 100%;
+    width: 47%;
+    padding: 1%;
+}
+
+#deptHire   {
+    margin: 1% 0% 0% 2.5%;
+    width: 45%;
+}
+
+#monthHire  {
+    width: 48%;
+    margin: 1% 0% 0% 0.5%;
+}
+
+.fntSize    {
+    font-size: 18px;
+}
+
+#totalHireChart {
+    padding-left: 25%;
+}
+
+#monthChart {
+    padding-left: 3%;
+}

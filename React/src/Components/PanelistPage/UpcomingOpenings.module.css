@@ -1,0 +1,39 @@
+#table  {
+    width: 100%;
+}
+
+#rightSide{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1%;
+}
+
+#view{
+    margin: 1% 0% 0% 1%;
+    border: 1px solid #e9e9e9;
+    height: 95.6%;
+    width: 100%;
+}
+
+#openingDiv {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.newTr{
+    margin-left: 5%;
+}
+
+/* .trId{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+} */
+
+/* .openingContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+} */

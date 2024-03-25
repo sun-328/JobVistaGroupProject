@@ -1,0 +1,39 @@
+#mainSection    {
+    height: 100%;
+    width: 100%;
+}
+
+#main   {
+    padding: 0% 0% 0% 5%;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    gap: 5%;
+}
+
+#head   {
+    font-size: 70px;
+    width: 40%;
+}
+
+#desc   {
+    font-size: 25px;
+    width: 36%;
+}
+
+#getStartedBtn  {
+    height: 35px;
+    width: 135px;
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 36px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#getStartedBtn:hover    {
+    background: rgba(255, 255, 255, 0.1);
+}

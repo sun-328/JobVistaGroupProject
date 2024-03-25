@@ -1,0 +1,176 @@
+{
+    "Status": "Success",
+    "Value": [
+        {
+            "Department": {
+                "departmentOrgId": 1,
+                "departmentTitle": "Engineering",
+                "departmentId": 1
+            },
+            "Organization": {
+                "orgName": "ABC Company",
+                "orgContactEmail": "contact@abccompany.com",
+                "orgContactNumber": "+1234567890",
+                "orgTypeOfOrg": "Corporation",
+                "orgIndustry": "Technology",
+                "orgId": 1
+            },
+            "Opening": {
+                "salaryRange": "$50,000 - $70,000",
+                "qualification": "Bachelor’s degree in Computer Science or related field",
+                "employmentType": "Full-time",
+                "endDate": "2024-04-30",
+                "openingId": 1,
+                "description": "Software Engineer",
+                "departments": "Engineering",
+                "experience": 3,
+                "startDate": "2024-04-29"
+            },
+            "Panelist": {
+                "panelistName": "Jane Smith",
+                "panelistOrgId": 1,
+                "panelistPosition": "Senior Engineer",
+                "panelistGender": "Female",
+                "panelistDepartmentId": 1,
+                "panelistId": 1,
+                "panelistEmail": "jane@abccompany.com"
+            }
+        },
+        {
+            "Department": {
+                "departmentOrgId": 1,
+                "departmentTitle": "Engineering",
+                "departmentId": 1
+            },
+            "Organization": {
+                "orgName": "ABC Company",
+                "orgContactEmail": "contact@abccompany.com",
+                "orgContactNumber": "+1234567890",
+                "orgTypeOfOrg": "Corporation",
+                "orgIndustry": "Technology",
+                "orgId": 1
+            },
+            "Opening": {
+                "salaryRange": "$80,000 - $90,000",
+                "qualification": "Bsc computer",
+                "employmentType": "Full-Time",
+                "openingId": 10001,
+                "description": "Software develeoper",
+                "departments": "develeoper",
+                "experience": 1,
+                "startDate": "2024-04-29"
+            },
+            "Panelist": {
+                "panelistName": "John",
+                "panelistOrgId": 1,
+                "panelistPosition": "Manager",
+                "panelistGender": "Male",
+                "panelistDepartmentId": 1,
+                "panelistId": 2,
+                "panelistEmail": "john@example.com"
+            }
+        },
+        {
+            "Department": {
+                "departmentOrgId": 1,
+                "departmentTitle": "Engineering",
+                "departmentId": 1
+            },
+            "Organization": {
+                "orgName": "ABC Company",
+                "orgContactEmail": "contact@abccompany.com",
+                "orgContactNumber": "+1234567890",
+                "orgTypeOfOrg": "Corporation",
+                "orgIndustry": "Technology",
+                "orgId": 1
+            },
+            "Opening": {
+                "salaryRange": "$80,000 - $90,000",
+                "qualification": "Bsc computer",
+                "employmentType": "Full-Time",
+                "openingId": 10002,
+                "description": "Software develeoper",
+                "departments": "develeoper",
+                "experience": 1,
+                "startDate": "2024-04-29"
+            },
+            "Panelist": {
+                "panelistName": "John",
+                "panelistOrgId": 1,
+                "panelistPosition": "Manager",
+                "panelistGender": "Male",
+                "panelistDepartmentId": 1,
+                "panelistId": 2,
+                "panelistEmail": "john@example.com"
+            }
+        },
+        {
+            "Department": {
+                "departmentOrgId": 1,
+                "departmentTitle": "Engineering",
+                "departmentId": 1
+            },
+            "Organization": {
+                "orgName": "ABC Company",
+                "orgContactEmail": "contact@abccompany.com",
+                "orgContactNumber": "+1234567890",
+                "orgTypeOfOrg": "Corporation",
+                "orgIndustry": "Technology",
+                "orgId": 1
+            },
+            "Opening": {
+                "salaryRange": "$80,000 - $90,000",
+                "qualification": "Bsc computer",
+                "employmentType": "Full-Time",
+                "openingId": 10003,
+                "description": "Software develeoper",
+                "departments": "develeoper",
+                "experience": 1,
+                "startDate": "2024-04-29"
+            },
+            "Panelist": {
+                "panelistName": "John",
+                "panelistOrgId": 1,
+                "panelistPosition": "Manager",
+                "panelistGender": "Male",
+                "panelistDepartmentId": 1,
+                "panelistId": 2,
+                "panelistEmail": "john@example.com"
+            }
+        },
+        {
+            "Department": {
+                "departmentOrgId": 1,
+                "departmentTitle": "Engineering",
+                "departmentId": 1
+            },
+            "Organization": {
+                "orgName": "ABC Company",
+                "orgContactEmail": "contact@abccompany.com",
+                "orgContactNumber": "+1234567890",
+                "orgTypeOfOrg": "Corporation",
+                "orgIndustry": "Technology",
+                "orgId": 1
+            },
+            "Opening": {
+                "salaryRange": "$80,000 - $90,000",
+                "qualification": "Bsc computer",
+                "employmentType": "Full-Time",
+                "openingId": 10004,
+                "description": "Software develeoper",
+                "departments": "develeoper",
+                "experience": 1,
+                "startDate": "2024-04-29"
+            },
+            "Panelist": {
+                "panelistName": "John",
+                "panelistOrgId": 1,
+                "panelistPosition": "Manager",
+                "panelistGender": "Male",
+                "panelistDepartmentId": 1,
+                "panelistId": 2,
+                "panelistEmail": "john@example.com"
+            }
+        }
+    ]
+}

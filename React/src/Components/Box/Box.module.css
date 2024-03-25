@@ -1,0 +1,20 @@
+.commonStyleBox {
+    width: 15%;
+    height: 200px;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#icon   {
+    font-size: 50px;
+}
+
+#title  {
+    font-size: 25px;
+}
+
+#description    {
+    font-size: 20px;
+}

@@ -1,0 +1,158 @@
+[
+    {
+        "departments": [
+            {
+                "Name": "IT",
+                "Description": "Information Technoogy",
+                "Openings": [
+                    {
+                        "Description": "Software Engineer",
+                        "Experience": 3,
+                        "Qualification": "B.Tech",
+                        "Departments": "IT",
+                        "EmploymentType": "Full-time",
+                        "SalaryRange": "$60,000 - $80,000",
+                        "Panalist_Id": 1,
+                        "Start_Date": "2024-03-01",
+                        "End_Date": "2024-03-31",
+                        "applicants": [
+                            {
+                                "name": "JobSeeker1",
+                                "email": "jobseeker1@example.com",
+                                "Dob": "1990-01-01",
+                                "Gender": "Male",
+                                "Experience": 4,
+                                "Department_Id": 1,
+                                "Phone_No": "123-456-7890",
+                                "Qualification": "B.Tech",
+                                "Photo": "/photos/photo1.jpg"
+                            },
+                            {
+                                "name": "JobSeeker2",
+                                "email": "jobseeker2@example.com",
+                                "Dob": "1993-01-01",
+                                "Gender": "Male",
+                                "Experience": 5,
+                                "Department_Id": 1,
+                                "Phone_No": "908-233-1234",
+                                "Qualification": "B.Tech",
+                                "Photo": "/photos/photo2.jpg"
+                            }
+                        ]
+                    },
+                    {
+                        "Description": "Financial Analyst",
+                        "Experience": 5,
+                        "Qualification": "MBA",
+                        "Departments": "Finance",
+                        "EmploymentType": "Part-time",
+                        "SalaryRange": "$50,000 - $70,000",
+                        "Panalist_Id": 1,
+                        "Start_Date": "2024-04-01",
+                        "End_Date": "2024-03-31",
+                        "applicants": [
+                            {
+                                "name": "JobSeeker1",
+                                "email": "jobseeker1@example.com",
+                                "Dob": "1990-01-01",
+                                "Gender": "Male",
+                                "Experience": 4,
+                                "Department_Id": 1,
+                                "Phone_No": "123-456-7890",
+                                "Qualification": "B.Tech",
+                                "Photo": "/photos/photo1.jpg"
+                            },
+                            {
+                                "name": "JobSeeker2",
+                                "email": "jobseeker2@example.com",
+                                "Dob": "1993-01-01",
+                                "Gender": "Male",
+                                "Experience": 5,
+                                "Department_Id": 1,
+                                "Phone_No": "908-233-1234",
+                                "Qualification": "B.Tech",
+                                "Photo": "/photos/photo2.jpg"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "Name": "IT",
+                "Description": "Information Technoogy",
+                "Openings": [
+                    {
+                        "Description": "Software Engineer",
+                        "Experience": 3,
+                        "Qualification": "B.Tech",
+                        "Departments": "IT",
+                        "EmploymentType": "Part-time",
+                        "SalaryRange": "$60,000 - $80,000",
+                        "Panalist_Id": 1,
+                        "Start_Date": "2024-03-01",
+                        "End_Date": "2024-03-31",
+                        "applicants": [
+                            {
+                                "name": "JobSeeker1",
+                                "email": "jobseeker1@example.com",
+                                "Dob": "1990-01-01",
+                                "Gender": "Male",
+                                "Experience": 4,
+                                "Department_Id": 1,
+                                "Phone_No": "123-456-7890",
+                                "Qualification": "B.Tech",
+                                "Photo": "/photos/photo1.jpg"
+                            },
+                            {
+                                "name": "JobSeeker2",
+                                "email": "jobseeker2@example.com",
+                                "Dob": "1993-01-01",
+                                "Gender": "Male",
+                                "Experience": 5,
+                                "Department_Id": 1,
+                                "Phone_No": "908-233-1234",
+                                "Qualification": "B.Tech",
+                                "Photo": "/photos/photo2.jpg"
+                            }
+                        ]
+                    },
+                    {
+                        "Description": "Financial Analyst",
+                        "Experience": 5,
+                        "Qualification": "MBA",
+                        "Departments": "Finance",
+                        "EmploymentType": "Part-time",
+                        "SalaryRange": "$50,000 - $70,000",
+                        "Panalist_Id": 1,
+                        "Start_Date": "2024-04-01",
+                        "End_Date": "2024-03-31",
+                        "applicants": [
+                            {
+                                "name": "JobSeeker1",
+                                "email": "jobseeker1@example.com",
+                                "Dob": "1990-01-01",
+                                "Gender": "Male",
+                                "Experience": 4,
+                                "Department_Id": 1,
+                                "Phone_No": "123-456-7890",
+                                "Qualification": "B.Tech",
+                                "Photo": "/photos/photo1.jpg"
+                            },
+                            {
+                                "name": "JobSeeker2",
+                                "email": "jobseeker2@example.com",
+                                "Dob": "1993-01-01",
+                                "Gender": "Male",
+                                "Experience": 5,
+                                "Department_Id": 1,
+                                "Phone_No": "908-233-1234",
+                                "Qualification": "B.Tech",
+                                "Photo": "/photos/photo2.jpg"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

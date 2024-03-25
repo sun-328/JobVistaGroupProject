@@ -1,0 +1,61 @@
+#iconDiv    {
+    width: 20%;
+    background: #4188FF;
+    color: #fff;
+    font-size: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contentDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5%;
+    font-size: 18px;
+} 
+
+@keyframes slideIn {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideOut {
+    0% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+}
+
+.popupContainer {
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 80px;
+    width: 400px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.08);
+    display: flex;
+}
+
+
+.slidein {
+    animation: slideIn 0.5s forwards;
+}
+
+.slideout {
+    animation: slideOut 0.5s forwards;
+}

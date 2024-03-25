@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Jith",
+        "email": "jith@gmail.com",
+        "gender": "Male",
+        "dept": "HR Department",
+        "role": "Manager",
+        "organization": "ABC Company"
+    },
+    {
+        "name": "Abitha",
+        "email": "abitha@gmail.com",
+        "gender": "Female",
+        "dept": "HR Department",
+        "role": "Interviewer",
+        "organization": "ABC Company"
+    },
+    {
+        "name": "Sun",
+        "email": "sun@gmail.com",
+        "gender": "Male",
+        "dept": "HR Department",
+        "role": "Interviewer",
+        "organization": "ABC Company"
+    },
+    {
+        "name": "Ragavi",
+        "email": "ragavi@gmail.com",
+        "gender": "Female",
+        "dept": "HR Department",
+        "role": "Manager",
+        "organization": "ABC Company"
+    },
+    {
+        "name": "Padma",
+        "email": "padma@gmail.com",
+        "gender": "Female",
+        "dept": "HR Department",
+        "role": "Interviewer",
+        "organization": "ABC Company"
+    }
+]

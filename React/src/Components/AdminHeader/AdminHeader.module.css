@@ -1,0 +1,95 @@
+#header {
+    height: 70px;
+    box-shadow: 2px 2px 2px #f7f0f0;
+    border-bottom: 1px solid #d7d7d7;
+}
+
+#forSpace {
+    width: 98%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logOutBtn {
+    height: 45px;
+    width: 100px;
+    border: none;
+    background: #4188FF;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 10px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0%;
+}
+
+#logOutBtn:hover {
+    background-color: #3172e2;
+    cursor: pointer;
+}
+
+#userImg {
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+#userImage {
+    height: 80px;
+    width: 80px;
+}
+
+#mainProfile {
+    position: absolute;
+    left: 78.3%;
+    top: 7.2%;
+    height: 300px;
+    width: 370px;
+    /* background: rgb(223,219,219);
+    background: linear-gradient(0deg, rgb(227 225 225) 0%, rgb(252 252 252) 100%); */
+    border-radius: 10px;
+    background: #e9e9e9;
+    border: 1px solid #cfcbcb;
+    padding:2%;
+    text-align: center;
+    font-size: 15px;
+    line-height: 23px;
+}
+#closeProfile{
+    margin-top: -5%;
+    margin-left: 50%;
+    font-size: 20px;
+    color: gray;
+    position: absolute;
+    cursor: pointer;
+    border-radius: 50%;
+    /* padding: 2%; */
+    height: 30px;
+    width: 30px;
+}
+
+#closeProfile:hover {
+    color: rgb(186, 185, 185);
+    /* background: #fff;
+    padding-top: 1%; */
+}
+#logout{
+    margin-top: 5%;
+    margin-left: 64%;
+    color: #c90000;
+    position: absolute;
+    cursor:pointer
+}
+#username{
+    margin: 2% 0%;
+}
+
+#logout:hover   {
+    color: #ef3838;
+}
+#flx{
+    display: flex;
+}

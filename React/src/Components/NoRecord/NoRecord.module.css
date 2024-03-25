@@ -1,0 +1,8 @@
+#noRecordContainer  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 85%;
+    gap: 10%;
+}

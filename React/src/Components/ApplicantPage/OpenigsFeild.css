@@ -1,0 +1,109 @@
+body,
+html {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* Prevents scrolling on the body */
+  height: 100vh;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.table {
+  margin: 3%;
+  display: flex;
+  width: 98%;
+  flex-wrap: wrap;
+  gap: 5%;
+}
+
+.row.header {
+  cursor: text;
+  font-weight: bold;
+  background-color: #f2f2f2;
+}
+
+/* .row {
+    cursor: pointer;
+    display: table-row;
+  }
+  
+  .cell {
+    display: table-cell;
+    padding: 8px;
+    border: 1px solid #dddddd;
+  } */
+
+/* Add more styling as per your design preferences */
+
+.row {
+  display: flex;
+  border: 1px solid rgba(0, 0, 0, 0.10);
+  margin-bottom: 2%;
+  width: 45%;
+  /* justify-content: space-between; */
+  padding: 1% 2%;
+  cursor: pointer;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.10); */
+  line-height: 30px;
+  height: 170px;
+}
+
+.row:hover {
+  /* border: 1px solid #ccc; */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.10);
+  border: none;
+}
+
+.cell {
+  margin-bottom: 5px;
+}
+
+.cell:last-child {
+  margin-bottom: 0;
+}
+
+#openingImg {
+  width: 100%;
+  height: 100%;
+}
+
+#imgBox {
+  height: 100%;
+  width: 15%;
+}
+
+.openingDetails {
+  /* margin-left: 10%; */
+  width: 40%;
+}
+
+.cmnStyle {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 100%;
+  white-space: nowrap;
+}
+
+#backBtnStyle {
+  margin-left: 3%;
+}
+
+.width {
+  width: 100%;
+}
+
+#mainOpening {
+  width: 80%;
+  display: flex;
+  padding-left: 5%;
+  justify-content: space-around;
+}
+
+.openingIcon {
+  color: #003E65;
+  /* font-size: 25px; */
+}
